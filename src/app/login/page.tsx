@@ -25,7 +25,7 @@ function LoginComponent() {
           <h1 className="uppercase text-3xl">Welcome back</h1>
           <h2 className="text-lg">Please login to continue</h2>
         </div>
-        <button type="button" onClick={() => signIn("spotify")}>
+        <button className="px-2 py-1.5 border border-gray-400" type="button" onClick={() => signIn("spotify")}>
           Login using Spotify
         </button>
       </main>
